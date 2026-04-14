@@ -1763,34 +1763,39 @@
 ########################################################################
 
 	s:STATE_SONORA = {
+		# STATE_SONORA: Sonora
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 428817
+				size = 478817
 			}
 			create_pop = {
 				culture = oodham
-				size = 95853
+				size = 45853
 			}
 		}
 	}
+
 	s:STATE_CHIHUAHUA = {
+		# STATE_CHIHUAHUA: Chihuahua
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 411797
+				size = 791927
 			}
 			create_pop = {
 				culture = oodham
-				size = 61143
+				size = 31143
 			}
 			create_pop = {
 				culture = apache
-				size = 409130
+				size = 59000
 			}
 		}
 	}
+
 	s:STATE_RIO_GRANDE = {
+		# STATE_RIO_GRANDE: Coahuila, Nuevo León, Tamaulipas
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
@@ -1807,35 +1812,49 @@
 			}
 		}
 	}
+
 	s:STATE_VERACRUZ = {
+		# STATE_VERACRUZ: Veracruz
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 1668533
-			}
-		}
-	}
-	s:STATE_DURANGO = {
-		region_state:MEX = {
-			create_pop = {
-				culture = mexican
-				size = 309447
+				size = 1268533
 			}
 			create_pop = {
-				culture = oodham
-				size = 38439
+				culture = nahua
+				size = 350000
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 104117
+				size = 50000
 			}
 		}
 	}
-	s:STATE_SINALOA = {
+
+	s:STATE_DURANGO = {
+		# STATE_DURANGO: Durango
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 543417
+				size = 408004
+			}
+			create_pop = {
+				culture = oodham
+				size = 30439
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 13560
+			}
+		}
+	}
+
+	s:STATE_SINALOA = {
+		# STATE_SINALOA: Sinaloa
+		region_state:MEX = {
+			create_pop = {
+				culture = mexican
+				size = 548889
 			}
 			create_pop = {
 				culture = oodham
@@ -1843,106 +1862,124 @@
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 22947
+				size = 17475
 			}
 		}
 	}
+
 	s:STATE_BAJIO = {
+		# STATE_BAJIO: Guanajuato, Querétaro, Aguascalientes, San Luis Potosí
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 2013370
+				size = 2141534
 			}
 			create_pop = {
 				culture = nahua
-				size = 230003
+				size = 180000
 			}
 			create_pop = {
 				culture = tarascan
-				size = 163116
+				size = 113000
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 103340
+				size = 75295
 			}
 		}
 	}
+
 	s:STATE_YUCATAN = {
+		# STATE_YUCATAN: Yucatán, Campeche, Quintana Roo
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 697176
+				size = 557980
 			}
 			create_pop = {
 				culture = mayan
-				size = 85972
+				size = 250000
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 49821
+				size = 25000
 			}
 		}
 	}
+
 	s:STATE_MEXICO = {
+		# STATE_MEXICO: Estado de México, Ciudad de México, Morelos, Hidalgo, Puebla, Tlaxcala
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 6643843
+				size = 6728132
 			}
 			create_pop = {
 				culture = mixtec
 				religion = catholic
-				size = 67248
+				size = 150000
 			}
 			create_pop = {
 				culture = nahua
 				religion = catholic
-				size = 237815
+				size = 650000
 			}
 			create_pop = {
 				culture = zapotec
 				religion = catholic
-				size = 103180
+				size = 150000
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 863514
+				size = 237468
 			}
 		}
 	}
+
 	s:STATE_GUERRERO = {
+		# STATE_GUERRERO: Guerrero
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 314846
+				size = 439331
 			}
 			create_pop = {
 				culture = zapotec
-				size = 29509
+				size = 30000
 			}
 			create_pop = {
 				culture = tarascan
-				size = 68278
+				size = 53278
 			}
 			create_pop = {
 				culture = nahua
-				size = 5434
+				size = 50000
+			}
+			create_pop = {
+				culture = mixtec
+				size = 30000
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 236943
+				size = 52400
 			}
 		}
 	}
+
 	s:STATE_OAXACA = {
+		# STATE_OAXACA: Oaxaca
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 697551
+				size = 308248
 			}
 			create_pop = {
 				culture = zapotec
-				size = 60069
+				size = 250000
+			}
+			create_pop = {
+				culture = mixtec
+				size = 200000
 			}
 			create_pop = {
 				culture = tarascan
@@ -1950,48 +1987,57 @@
 			}
 			create_pop = {
 				culture = nahua
-				size = 28556
+				size = 150000
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 170878
+				size = 48806
 			}
 		}
 	}
+
 	s:STATE_JALISCO = {
+		# STATE_JALISCO: Jalisco, Colima
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 2476391
-			}
-			create_pop = {
-				culture = oodham
-				religion = catholic
-				size = 295758
-			}
-		}
-	}
-	s:STATE_ZACATECAS = {
-		region_state:MEX = {
-			create_pop = {
-				culture = mexican
-				size = 282384
+				size = 2612149
 			}
 			create_pop = {
 				culture = nahua
-				size = 162092
+				size = 80000
+			}
+			create_pop = {
+				culture = tarascan
+				size = 80000
 			}
 		}
 	}
-	s:STATE_CHIAPAS = {
+
+	s:STATE_ZACATECAS = {
+		# STATE_ZACATECAS: Zacatecas
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
-				size = 1116417
+				size = 397476
+			}
+			create_pop = {
+				culture = nahua
+				size = 47000
+			}
+		}
+	}
+
+	s:STATE_CHIAPAS = {
+		# STATE_CHIAPAS: Chiapas
+		region_state:MEX = {
+			create_pop = {
+				culture = mexican
+				size = 873055
 			}
 			create_pop = {
 				culture = mayan
-				size = 76638
+				size = 320000
 			}
 			create_pop = {
 				culture = central_american
@@ -1999,7 +2045,9 @@
 			}
 		}
 	}
+
 	s:STATE_BAJA_CALIFORNIA = {
+		# STATE_BAJA_CALIFORNIA: Baja California, Baja California Sur
 		region_state:MEX = {
 			create_pop = {
 				culture = mexican
